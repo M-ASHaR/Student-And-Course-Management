@@ -1,0 +1,12 @@
+<h2>Delete Student</h2>
+<form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Student ID</label>
+      <input type="number" #studentID class="form-control" id="StudentID"  placeholder="Enter student Id you want to delete">
+     
+    </div>
+    <button type="submit" class="btn btn-primary" (click)="DeleteStudent(studentID.value)">Delete</button>
+    
+  </form>
+
+ 

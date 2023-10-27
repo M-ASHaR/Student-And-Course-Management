@@ -1,0 +1,21 @@
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        
+        <th scope="col">Course ID</th>
+        <th scope="col">Course Name</th>
+        <!-- <th scope="col">Handle</th> -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor=' let cors of courses '>
+        <td>{{cors.courseID}}</td>
+        <td>{{cors.courseName}}</td>
+        <!-- <td>{{std.lastName}}</td>
+        <td>{{std.age}}</td>
+        <td>{{std.CourseID}}</td> -->
+      </tr>
+    </tbody>
+  </table>
+  
+

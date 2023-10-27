@@ -1,0 +1,22 @@
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        
+        <th scope="col" id="StudentID">StudentID</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">Age</th>
+        <th scope="col">CourseID</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor=' let std of students '>
+        <td>{{std.studentID}}</td>
+        <td>{{std.firstName}}</td>
+        <td>{{std.lastName}}</td>
+        <td>{{std.age}}</td>
+        <td>{{std.courseID}}</td>
+        
+      </tr>
+    </tbody>
+  </table>

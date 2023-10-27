@@ -1,0 +1,29 @@
+h1 {
+  color: black;
+  text-align: center;
+}
+/* .studentdata{
+    display: flex; 
+
+  align-items: center; 
+
+  justify-content: center; 
+
+  text-align: center; 
+} */
+form {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+button {
+    padding: 5px;
+    margin: 10px;
+}
+.form-group{
+    width: 50%;
+    display: inline-block;
+    padding: 10px;
+}
+button{
+    margin-left: 40px;
+}

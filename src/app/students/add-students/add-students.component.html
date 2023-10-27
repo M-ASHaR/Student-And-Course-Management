@@ -1,0 +1,50 @@
+<!-- <p>students works!</p> -->
+<h2>Add Student</h2>
+<!-- <div class="studentdata">
+  <form id="addStudentForm">
+    <label for="studentId">Student ID:</label>
+    <input type="number" id="studentId" />
+    <br />
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" />
+    <br />
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" />
+    <br />
+    <label for="age">Age:</label>
+    <input type="number" id="age" />
+    <br />
+    <label for="courseId">Course ID:</label>
+    <input type="number" id="courseId" />
+    <br />
+    <button type="button" class="btn btn-primary"id="addStudentButton">Add Student</button>
+  </form>
+</div> -->
+
+
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Student ID</label>
+    <input type="number" #studentID class="form-control" id="studentID" aria-describedby="emailHelp" placeholder="Enter Your Student id here..">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">First Name</label>
+    <input type="text" #firstname class="form-control" id="firstName" >
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Last Name</label>
+    <input type="text" #lastname class="form-control" id="lastName" >
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Age</label>
+    <input type="number" #age class="form-control" id="Age" >
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Course ID</label>
+    <input type="text" #courseID class="form-control" id="courseID" >
+  </div>
+  <button type="submit" class="btn btn-primary" (click)="AddStudent(studentID.value,firstname.value,lastname.value,age.value,courseID.value)">Add Student</button>
+  
+</form>
+
+
